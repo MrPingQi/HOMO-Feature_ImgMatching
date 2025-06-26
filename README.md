@@ -1,1 +1,1 @@
-# A new cross-modal (multi-modal) image matching algorithm with proposed HOMO-invariant-feature
+# HOMO-Feature: Cross-Arbitrary-Modal Image Matching with Homomorphism of Organized Major Orientation
