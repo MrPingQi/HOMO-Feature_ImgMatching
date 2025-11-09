@@ -1,5 +1,7 @@
 # HOMO-Feature: Cross-Arbitrary-Modal Image Matching with Homomorphism of Organized Major Orientation
 
+The author is busy job hunting for now, causing a delay of codes working. The algorithm will be fully open-source very soon.
+
 A new image matching method of traditional handcrafted framework with the following effects: (2024.09.10)
 
 One-stage:
