@@ -4,13 +4,20 @@
 
 A new image matching method of traditional handcrafted framework with the following effects: (2024.09.10)
 
-<p align="center">
-  <strong>One-stage</strong><br>
-  <img src="https://github.com/MrPingQi/HOMO-Feature_ImgMatching/blob/main/2024-09-10_matching_animated_1.gif" width="22.5%"/>
-  &nbsp;
-  <strong>Two-stage</strong><br>
-  <img src="https://github.com/MrPingQi/HOMO-Feature_ImgMatching/blob/main/2024-09-10_matching_animated_2.gif" width="22.5%"/>
-</p>
+<table>
+  <tr>
+    <td align="center">One-stage</td>
+    <td align="center">Two-stage</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/MrPingQi/HOMO-Feature_ImgMatching/blob/main/2024-09-10_matching_animated_1.gif"/>
+    </td>
+    <td align="center">
+      <img src="https://github.com/MrPingQi/HOMO-Feature_ImgMatching/blob/main/2024-09-10_matching_animated_2.gif"/>
+    </td>
+  </tr>
+</table>
 
 Multi-camera:
 <p align="center">
