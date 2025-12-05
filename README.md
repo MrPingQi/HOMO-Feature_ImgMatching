@@ -23,3 +23,16 @@ Multi-camera:
 <p align="center">
   <img src="https://github.com/MrPingQi/HOMO-Feature_ImgMatching/blob/main/2024-09-10_cam_matching.gif"/>
 </p>
+
+
+## 📚 Citation
+If you find our work useful in your research, please consider citing:
+```bibtex
+@InProceedings{Gao_2025_ICCV,
+    author    = {Gao, Chenzhong and Li, Wei and Weng, Desheng},
+    title     = {HOMO-Feature: Cross-Arbitrary-Modal Image Matching with Homomorphism of Organized Major Orientation},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2025},
+    pages     = {10538-10548}
+}
