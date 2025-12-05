@@ -30,9 +30,8 @@ If you find our work useful in your research, please consider citing:
 ```bibtex
 @InProceedings{Gao_2025_ICCV,
     author    = {Gao, Chenzhong and Li, Wei and Weng, Desheng},
-    title     = {HOMO-Feature: Cross-Arbitrary-Modal Image Matching with Homomorphism of Organized Major Orientation},
+    title     = {{HOMO-Feature}: Cross-Arbitrary-Modal Image Matching with Homomorphism of Organized Major Orientation},
     booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-    month     = {October},
-    year      = {2025},
-    pages     = {10538-10548}
+    pages     = {10538-10548},
+    year      = {2025}
 }
