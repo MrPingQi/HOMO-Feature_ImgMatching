@@ -6,10 +6,10 @@ A new image matching method of traditional handcrafted framework with the follow
 
 <p align="center">
   <strong>One-stage</strong><br>
-  <img src="https://github.com/MrPingQi/HOMO-Feature_ImgMatching/blob/main/2024-09-10_matching_animated_1.gif" width="45%"/>
+  <img src="https://github.com/MrPingQi/HOMO-Feature_ImgMatching/blob/main/2024-09-10_matching_animated_1.gif" width="35%"/>
   &nbsp;
   <strong>Two-stage</strong><br>
-  <img src="https://github.com/MrPingQi/HOMO-Feature_ImgMatching/blob/main/2024-09-10_matching_animated_2.gif" width="45%"/>
+  <img src="https://github.com/MrPingQi/HOMO-Feature_ImgMatching/blob/main/2024-09-10_matching_animated_2.gif" width="35%"/>
 </p>
 
 Multi-camera:
