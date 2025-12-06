@@ -24,6 +24,7 @@ A new image matching method of traditional handcrafted framework with the follow
   </tr>
 </table>
 
+<p align="center">
 <table>
   <tr>
     <td align="center">Multi-camera</td>
@@ -34,12 +35,9 @@ A new image matching method of traditional handcrafted framework with the follow
     </td>
   </tr>
 </table>
+</p>
 
 <table>
-  <tr>
-    <td align="center">One-stage</td>
-    <td align="center">Two-stage</td>
-  </tr>
   <tr>
     <td align="center">
       <img src="https://github.com/MrPingQi/HOMO-Feature_ImgMatching/blob/main/display1.jpg"/>
