@@ -1,9 +1,14 @@
 # HOMO-Feature: Cross-Arbitrary-Modal Image Matching with Homomorphism of Organized Major Orientation
 
+<p align="center">
+  <img src="https://github.com/MrPingQi/HOMO-Feature_ImgMatching/blob/main/HOMO-Feature_logo.png"/>
+</p>
+
+Paper Link: https://openaccess.thecvf.com/content/ICCV2025/html/Gao_HOMO-Feature_Cross-Arbitrary-Modal_Image_Matching_with_Homomorphism_of_Organized_Major_Orientation_ICCV_2025_paper.html
+
 *The author is busy job hunting for now, causing a delay of codes working. The algorithm will be fully open-source very soon.*
 
 A new image matching method of traditional handcrafted framework with the following effects: (2024.09.10)
-
 <table>
   <tr>
     <td align="center">One-stage</td>
@@ -19,9 +24,35 @@ A new image matching method of traditional handcrafted framework with the follow
   </tr>
 </table>
 
-Multi-camera:
+<table>
+  <tr>
+    <td align="center">Multi-camera</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/MrPingQi/HOMO-Feature_ImgMatching/blob/main/2024-09-10_cam_matching.gif"/>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center">One-stage</td>
+    <td align="center">Two-stage</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/MrPingQi/HOMO-Feature_ImgMatching/blob/main/display1.jpg"/>
+    </td>
+    <td align="center">
+      <img src="https://github.com/MrPingQi/HOMO-Feature_ImgMatching/blob/main/display2.jpg"/>
+    </td>
+  </tr>
+</table>
+
+## Presentation Poster
 <p align="center">
-  <img src="https://github.com/MrPingQi/HOMO-Feature_ImgMatching/blob/main/2024-09-10_cam_matching.gif"/>
+  <img src="https://github.com/MrPingQi/HOMO-Feature_ImgMatching/blob/main/HOMO-Feature_poster.jpg"/>
 </p>
 
 
