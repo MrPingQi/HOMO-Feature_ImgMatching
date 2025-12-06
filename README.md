@@ -37,13 +37,13 @@ A new image matching method of traditional handcrafted framework with the follow
 </table>
 </p>
 
-<table style="width: 100%;">
+<table>
   <tr>
-    <td align="center" style="width: 50%;">
-      <img src="display1.jpg" style="max-width: 100%; height: auto;"/>
+    <td align="center">
+      <img src="display1.jpg" style="height: 400px; width: auto;"/>
     </td>
-    <td align="center" style="width: 50%;">
-      <img src="display2.jpg" style="max-width: 100%; height: auto;"/>
+    <td align="center">
+      <img src="display2.jpg" style="height: 400px; width: auto;"/>
     </td>
   </tr>
 </table>
