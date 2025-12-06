@@ -39,11 +39,11 @@ A new image matching method of traditional handcrafted framework with the follow
 
 <table>
   <tr>
-    <td align="center">
-      <img src="https://github.com/MrPingQi/HOMO-Feature_ImgMatching/blob/main/display1.jpg"/>
+    <td align="center" style="vertical-align: top;">
+      <img src="https://github.com/MrPingQi/HOMO-Feature_ImgMatching/blob/main/display1.jpg" style="max-height: 400px; width: auto;"/>
     </td>
-    <td align="center">
-      <img src="https://github.com/MrPingQi/HOMO-Feature_ImgMatching/blob/main/display2.jpg"/>
+    <td align="center" style="vertical-align: top;">
+      <img src="https://github.com/MrPingQi/HOMO-Feature_ImgMatching/blob/main/display2.jpg" style="max-height: 400px; width: auto;"/>
     </td>
   </tr>
 </table>
