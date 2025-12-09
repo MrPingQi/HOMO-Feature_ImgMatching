@@ -24,6 +24,7 @@ A new image matching method of traditional handcrafted framework with the follow
   </tr>
 </table>
 
+<!--
 <p align="center">
 <table>
   <tr>
@@ -36,6 +37,7 @@ A new image matching method of traditional handcrafted framework with the follow
   </tr>
 </table>
 </p>
+-->
 
 <!--
 <table>
@@ -50,14 +52,18 @@ A new image matching method of traditional handcrafted framework with the follow
 </table>
 -->
 
+<!--
 ## Presentation Poster
 <p align="center">
   <img src="HOMO-Feature_poster.jpg"/>
 </p>
+-->
 
 
 ## 📦 Datasets Release
+<!--
 *** GCZ dataset ***
+-->
 
 Google Drive: https://drive.google.com/file/d/1HpxE8mEYIt_VH7WWkuVYaGnVw4Uh2Hoz/view?usp=drive_link
 
