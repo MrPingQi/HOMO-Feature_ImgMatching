@@ -56,9 +56,18 @@ A new image matching method of traditional handcrafted framework with the follow
 
 
 ## 📦 Datasets Release
+*** GCZ dataset ***
+
 Google Drive: 
 
-Baidu Netdisk: 
+Baidu Netdisk: https://pan.baidu.com/s/1yrVsClR9Of1ze0WkPHYJiA?pwd=homo
+
+*** Revised MRSI dataset labels ***
+
+Google Drive: https://drive.google.com/file/d/1nMq6tzprdqRtsCc-rUwOeiMbxukTrgpU/view?usp=drive_link
+
+Baidu Netdisk: https://pan.baidu.com/s/1FXuk3oUw5ItLnjSYGopkxA?pwd=mrsi
+
 
 
 ## 📚 Citation
