@@ -37,6 +37,7 @@ A new image matching method of traditional handcrafted framework with the follow
 </table>
 </p>
 
+<!--
 <table>
   <tr>
     <td align="center">
@@ -47,7 +48,7 @@ A new image matching method of traditional handcrafted framework with the follow
     </td>
   </tr>
 </table>
-
+-->
 
 ## Presentation Poster
 <p align="center">
