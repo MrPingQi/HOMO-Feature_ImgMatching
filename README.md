@@ -69,7 +69,7 @@ A new image matching method of traditional handcrafted framework with the follow
 *** GCZ dataset ***
 -->
 
-Google Drive: 
+Google Drive: https://drive.google.com/file/d/1RzHLOuBpUOKsDpMtALIpUBk33MlBJrV6/view?usp=drive_link
 
 Baidu Netdisk: https://pan.baidu.com/s/1XTuAcEGS6PopHpznaYx4bQ?pwd=homo
 
