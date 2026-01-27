@@ -13,7 +13,7 @@ save_path = '.\save_image\';
 
 %% Parameters
 int_flag = 1;  % Is there any obvious intensity difference (multi-modal), yes:1, no:0
-rot_flag = 1;  % Is there 0any obvious rotation difference
+rot_flag = 1;  % Is there any obvious rotation difference
 scl_flag = 0;  % Is there any obvious scale difference
 par_flag = 0;  % Do you want parallel computing in multi-scale strategy
 trans_form = 'affine'; % What spatial transform model do you need
@@ -142,4 +142,5 @@ Imwrite(I2_r , [save_path,Date,'2 Registered Image','.tif'],GeoInfo2,DataInfo1);
 Imwrite(I2_rs, [save_path,Date,'4 Registered Image Show','.png']);
 Imwrite(I3   , [save_path,Date,'5 Overlap of results','.png']);
 Imwrite(I4   , [save_path,Date,'6 Mosaic of results','.png']);
+
 t(7)=toc; disp([' Matching results are saved at ', save_path,', time cost: ',num2str(t(7)),'s']);
