@@ -8,8 +8,6 @@
 
 Paper Link: https://openaccess.thecvf.com/content/ICCV2025/html/Gao_HOMO-Feature_Cross-Arbitrary-Modal_Image_Matching_with_Homomorphism_of_Organized_Major_Orientation_ICCV_2025_paper.html
 
-*The authors are busy job hunting for now, causing a delay of codes working. The algorithm and datasets will be fully open-source very soon.*
-
 If you have any queries or suggestions, please do not hesitate to contact me (gao-pingqi@qq.com). If you are from China, you may just speak Chinese~ 中国人直接说中文就可以了~
 
 A new image matching method of traditional handcrafted framework with the following effects: (2024.09.10)
