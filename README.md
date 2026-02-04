@@ -20,15 +20,14 @@ A new image matching method of traditional handcrafted framework with the follow
   </tr>
   <tr>
     <td align="center">
-      <img src="2024-09-10_matching_animated_1.gif"/>
+      <img src="misc/2024-09-10_matching_animated_1.gif"/>
     </td>
     <td align="center">
-      <img src="2024-09-10_matching_animated_2.gif"/>
+      <img src="misc/2024-09-10_matching_animated_2.gif"/>
     </td>
   </tr>
 </table>
 
-<!--
 <p align="center">
 <table>
   <tr>
@@ -36,21 +35,20 @@ A new image matching method of traditional handcrafted framework with the follow
   </tr>
   <tr>
     <td align="center">
-      <img src="2024-09-10_cam_matching.gif"/>
+      <img src="misc/2024-09-10_cam_matching.gif"/>
     </td>
   </tr>
 </table>
 </p>
--->
 
 <!--
 <table>
   <tr>
     <td align="center">
-      <img src="display1.jpg" style="height: 400px; width: auto;"/>
+      <img src="misc/display1.jpg" style="height: 400px; width: auto;"/>
     </td>
     <td align="center">
-      <img src="display2.jpg" style="height: 400px; width: auto;"/>
+      <img src="misc/display2.jpg" style="height: 400px; width: auto;"/>
     </td>
   </tr>
 </table>
@@ -59,7 +57,7 @@ A new image matching method of traditional handcrafted framework with the follow
 <!--
 ## Presentation Poster
 <p align="center">
-  <img src="HOMO-Feature_poster.jpg"/>
+  <img src="misc/HOMO-Feature_poster.jpg"/>
 </p>
 -->
 
