@@ -7,21 +7,23 @@
 
 % Pure HOMO-Feature cross-modal image matching demo.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-close all; clc; clear;
+close all; clc; %clear;
 addpath('functions','func_Math','func_Geo','func_HOMO')
 save_path = '.\save_image\';
 
 %% Parameters
 int_flag = 1;  % Is there any obvious intensity difference (multi-modal), yes:1, no:0
-rot_flag = 1;  % Is there 0any obvious rotation difference
+rot_flag = 0;  % Is there 0any obvious rotation difference
 scl_flag = 0;  % Is there any obvious scale difference
 par_flag = 0;  % Do you want parallel computing in multi-scale strategy
 trans_form = 'affine'; % What spatial transform model do you need
-out_form = 'Union';    % What image pair output form do you need
-chg_scale = 1; % Do you want the resolution of sensed image be changed to the reference
-Is_flag = 1;   % Do you want the visualization of registration results
-I3_flag = 1;   % Overlap form output
-I4_flag = 1;   % Mosaic form output
+                       % similarity, affine, projective / perspective / homography
+out_form   = 'union';  % What image pair output form do you need
+                       % reference, union, inter
+chg_scale= 1;  % Do you want the resolution of sensed image be changed to the reference
+Is_flag  = 1;  % Do you want the visualization of registration results
+I3_flag  = 1;  % Overlap form output
+I4_flag  = 1;  % Mosaic form output
 
 nOctaves = 3;    % Gaussian pyramid octave number, default: 3
 nLayers  = 2;    % Gaussian pyramid  layer number, default: 4 or 2
@@ -87,18 +89,22 @@ tic,keypoints_2 = Detect_Homo_Keypoint(I2,DoM_pyr2,6,thresh,r2,Npoint,G_resize,k
     figure,imshow(I2_s); hold on; plot(keypoints_2(:,1),keypoints_2(:,2),'r.');
     title(['Sensed image —— ',num2str(size(keypoints_2,1)),' keypoints']); drawnow
     clear DoMOM_pyr2
-    
+
 %% Keypoints description and matching (Multiscale strategy)
 tic,[cor1,cor2] = Multiscale_Strategy(keypoints_1,keypoints_2,MOM_pyr1,MOM_pyr2,...
     patchsize,NBA,NBO,G_resize,Error,K,trans_form,rot_flag,scl_flag,par_flag);
     t(5)=toc; fprintf([' Done: Keypoints description and matching, time cost: ',num2str(t(5)),'s\n']);
     clear MOM_pyr1 MOM_pyr2
-    matchment = Show_Matches(I1_s,I2_s,cor1,cor2,0);
-    cor1 = cor1/resample1; cor2 = cor2/resample2;
-    
+
+%% Done
+T=num2str(sum(t)); fprintf(['* Done image matching, total time: ',T,'s\n']);
+% cor1_r = data{1}/resample1; cor2_r = data{2}/resample2;  % load results
+matchment = Show_Matches(I1_s,I2_s,cor1,cor2,0);
+cor1_r = cor1/resample1; cor2_r = cor2/resample2;
+
 %% Image transformation (Geography enable)
 tic,[I1_r,I2_r,I1_rs,I2_rs,I3,I4,t_form,pos] = Transformation(image_1,image_2,...
-    cor1,cor2,trans_form,out_form,chg_scale,Is_flag,I3_flag,I4_flag);
+    cor1_r,cor2_r,trans_form,out_form,chg_scale,Is_flag,I3_flag,I4_flag);
     if ~isempty(DataInfo1) && ~isempty(DataInfo1.SpatialRef)
         pos(3:4) = pos(3:4)+1;
         GeoInfo2 = Create_GeoInfo(I2_r,pos,DataInfo1);
@@ -115,12 +121,9 @@ tic,[I1_r,I2_r,I1_rs,I2_rs,I3,I4,t_form,pos] = Transformation(image_1,image_2,..
     figure,imshow(I3); title('Overlap Form'); drawnow
     figure,imshow(I4); title('Mosaic Form'); drawnow
 
-%% Done
-T=num2str(sum(t)); fprintf(['* Done image matching, total time: ',T,'s\n']);
-
 %% Save results
 Date = datestr(now,'yyyy-mm-dd_HH-MM-SS__'); tic
-Imwrite({cor1; cor2; t_form}, [save_path,Date,'0 correspond','.mat']);
+Imwrite({cor1_r; cor2_r; t_form}, [save_path,Date,'0 correspond','.mat']);
 if exist('matchment','var') && ~isempty(matchment) && isvalid(matchment)
     saveas(matchment, [save_path,Date,'0 Matching Result','.png']);
 end
