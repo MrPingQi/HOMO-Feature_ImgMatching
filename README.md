@@ -1,7 +1,7 @@
 # HOMO-Feature: Cross-Arbitrary-Modal Image Matching with Homomorphism of Organized Major Orientation
 
 <p align="center">
-  <img src="https://github.com/MrPingQi/HOMO-Feature_ImgMatching/blob/main/HOMO-Feature_logo.png"/>
+  <img src="https://github.com/MrPingQi/HOMO-Feature_ImgMatching/blob/main/misc/HOMO-Feature_logo.png"/>
 </p>
 
 Paper Link: https://openaccess.thecvf.com/content/ICCV2025/html/Gao_HOMO-Feature_Cross-Arbitrary-Modal_Image_Matching_with_Homomorphism_of_Organized_Major_Orientation_ICCV_2025_paper.html
