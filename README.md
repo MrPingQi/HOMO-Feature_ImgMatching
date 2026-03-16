@@ -58,6 +58,7 @@ A new image matching method of traditional handcrafted framework with the follow
 <p align="center">
   <img src="misc/HOMO-Feature_poster.jpg"/>
 </p>
+https://iccv.thecvf.com/virtual/2025/poster/871
 
 
 
