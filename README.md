@@ -8,7 +8,11 @@ Paper Link: https://openaccess.thecvf.com/content/ICCV2025/html/Gao_HOMO-Feature
 
 If you have any queries or suggestions, please do not hesitate to contact me (gao-pingqi@qq.com). If you are from China, you may just speak Chinese~ 中国人直接说中文就可以了~
 
+
+
+## 📈 Matching Performance 
 A new image matching method of traditional handcrafted framework with the following effects: (2024.09.10)
+
 <table>
   <tr>
     <td align="center">One-stage</td>
@@ -48,10 +52,13 @@ A new image matching method of traditional handcrafted framework with the follow
   </tr>
 </table>
 
-## Presentation Poster
+
+
+## 📰 Presentation Poster
 <p align="center">
   <img src="misc/HOMO-Feature_poster.jpg"/>
 </p>
+
 
 
 ## 📦 Datasets Release
@@ -61,11 +68,15 @@ Google Drive: https://drive.google.com/file/d/1RzHLOuBpUOKsDpMtALIpUBk33MlBJrV6/
 
 Baidu Netdisk: https://pan.baidu.com/s/1XTuAcEGS6PopHpznaYx4bQ?pwd=homo
 
-*** Revised MRSI dataset labels ***
+*** Revised MRSI<sup>[1-2]</sup> dataset labels ***
 
 Google Drive: https://drive.google.com/file/d/1nMq6tzprdqRtsCc-rUwOeiMbxukTrgpU/view?usp=drive_link
 
 Baidu Netdisk: https://pan.baidu.com/s/1FXuk3oUw5ItLnjSYGopkxA?pwd=mrsi
+
+*[1] J. Li, Q. Hu, and M. Ai, “RIFT: Multi-modal image matching based on radiation-variation insensitive feature transform,” IEEE Transactions on Image Processing, vol. 29, pp. 3296–3310, 2019.*
+
+*[2] Y. Yao, Y. Zhang, Y. Wan, X. Liu, X. Yan, and J. Li, “Multi-modal remote sensing image matching considering co-occurrence filter,” IEEE Transactions on Image Processing, vol. 31, pp. 2584–2597, 2022.*
 
 
 
