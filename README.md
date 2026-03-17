@@ -11,8 +11,7 @@ If you have any queries or suggestions, please do not hesitate to contact me (ga
 ** Now this image matching algorithm is an old-fashioned one, and we highly recommend checking our new method: HOMO-Feature, which is now available at https://github.com/MrPingQi/HIMO_ImgMatching.
 
 
-
-## 📈 Matching Performance 
+## 📈 Matching Performance
 A new image matching method of traditional handcrafted framework with the following effects: (2024.09.10)
 
 <table>
@@ -55,13 +54,11 @@ A new image matching method of traditional handcrafted framework with the follow
 </table>
 
 
-
 ## 📰 Presentation Poster
 <p align="center">
   <img src="misc/HOMO-Feature_poster.jpg"/>
 </p>
 https://iccv.thecvf.com/virtual/2025/poster/871
-
 
 
 ## 📦 Datasets Release
@@ -80,7 +77,6 @@ Baidu Netdisk: https://pan.baidu.com/s/1FXuk3oUw5ItLnjSYGopkxA?pwd=mrsi
 *[1] J. Li, Q. Hu, and M. Ai, “RIFT: Multi-modal image matching based on radiation-variation insensitive feature transform,” IEEE Transactions on Image Processing, vol. 29, pp. 3296–3310, 2019.*
 
 *[2] Y. Yao, Y. Zhang, Y. Wan, X. Liu, X. Yan, and J. Li, “Multi-modal remote sensing image matching considering co-occurrence filter,” IEEE Transactions on Image Processing, vol. 31, pp. 2584–2597, 2022.*
-
 
 
 ## 📚 Citation
