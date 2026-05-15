@@ -64,7 +64,7 @@ https://iccv.thecvf.com/virtual/2025/poster/871
 ## 📦 Datasets Release
 *** GCZ dataset ***
 
-Google Drive: https://drive.google.com/file/d/1RzHLOuBpUOKsDpMtALIpUBk33MlBJrV6/view?usp=drive_link
+Google Drive: https://drive.google.com/drive/folders/1yZo3ZPxVuUrHbXJwNKEMEuBSVmOVihzM?usp=sharing
 
 Baidu Netdisk: https://pan.baidu.com/s/10d-xgjO15qu9sjRZVanJAQ?pwd=dgcz
 
