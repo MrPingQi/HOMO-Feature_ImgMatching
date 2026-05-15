@@ -66,7 +66,7 @@ https://iccv.thecvf.com/virtual/2025/poster/871
 
 Google Drive: https://drive.google.com/file/d/1RzHLOuBpUOKsDpMtALIpUBk33MlBJrV6/view?usp=drive_link
 
-Baidu Netdisk: https://pan.baidu.com/s/1XTuAcEGS6PopHpznaYx4bQ?pwd=homo
+Baidu Netdisk: https://pan.baidu.com/s/10d-xgjO15qu9sjRZVanJAQ?pwd=dgcz
 
 *** Revised MRSI<sup>[1-2]</sup> dataset labels ***
 
