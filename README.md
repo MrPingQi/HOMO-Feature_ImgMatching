@@ -67,6 +67,7 @@ https://iccv.thecvf.com/virtual/2025/poster/871
 Google Drive: https://drive.google.com/drive/folders/1yZo3ZPxVuUrHbXJwNKEMEuBSVmOVihzM?usp=sharing
 
 Baidu Netdisk: https://pan.baidu.com/s/10d-xgjO15qu9sjRZVanJAQ?pwd=dgcz
+
 <br>
 
 *** Revised MRSI<sup>[1-2]</sup> dataset labels ***
@@ -74,6 +75,7 @@ Baidu Netdisk: https://pan.baidu.com/s/10d-xgjO15qu9sjRZVanJAQ?pwd=dgcz
 Google Drive: https://drive.google.com/file/d/1joFkfeCJnGtkL9zZp2FSR0ZTr0wBP5zj/view?usp=sharing
 
 Baidu Netdisk: https://pan.baidu.com/s/1LwqD7OBxQDFpxatWIO56Rw?pwd=mrsi
+
 <br>
 
 *[1] J. Li, Q. Hu, and M. Ai, “RIFT: Multi-modal image matching based on radiation-variation insensitive feature transform,” IEEE Transactions on Image Processing, vol. 29, pp. 3296–3310, 2019.*
