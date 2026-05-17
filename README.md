@@ -82,11 +82,11 @@ Baidu Netdisk: https://pan.baidu.com/s/1FXuk3oUw5ItLnjSYGopkxA?pwd=mrsi
 ## 📚 Citation
 If you find our work useful in your research, please consider citing:
 ```bibtex
-@InProceedings{Gao_2025_ICCV,
-    author    = {Gao, Chenzhong and Li, Wei and Weng, Desheng},
-    title     = {{HOMO-Feature}: Cross-Arbitrary-Modal Image Matching with Homomorphism of Organized Major Orientation},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-    pages     = {10538-10548},
-    year      = {2025}
+@inproceedings{gao2025homo,
+  title={HOMO-Feature: Cross-Arbitrary-Modal Image Matching with Homomorphism of Organized Major Orientation},
+  author={Gao, Chenzhong and Li, Wei and Weng, Desheng},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={10538--10548},
+  year={2025}
 }
 ```
