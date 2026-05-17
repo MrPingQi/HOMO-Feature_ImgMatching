@@ -4,7 +4,7 @@
   <img src="https://github.com/MrPingQi/HOMO-Feature_ImgMatching/blob/main/misc/HOMO-Feature_logo.png"/>
 </p>
 
-Paper Link: https://openaccess.thecvf.com/content/ICCV2025/html/Gao_HOMO-Feature_Cross-Arbitrary-Modal_Image_Matching_with_Homomorphism_of_Organized_Major_Orientation_ICCV_2025_paper.html
+Paper Link: https://ieeexplore.ieee.org/document/11443590
 
 If you have any queries or suggestions, please do not hesitate to contact me (gao-pingqi@qq.com). If you are from China, you may just speak Chinese~ 中国人直接说中文就可以了~
 
