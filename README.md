@@ -8,7 +8,7 @@ Paper Link: https://ieeexplore.ieee.org/document/11443590
 
 If you have any queries or suggestions, please do not hesitate to contact me (gao-pingqi@qq.com). If you are from China, you may just speak Chinese~ 中国人直接说中文就可以了~
 
-** Now this image matching algorithm is an old-fashioned one, and we highly recommend checking our new method: HOMO-Feature, which is now available at https://github.com/MrPingQi/HIMO_ImgMatching.
+** Now this image matching algorithm is an old-fashioned one, and we highly recommend checking our new method: HIMO, which is now available at https://github.com/MrPingQi/HIMO_ImgMatching.
 
 <br>
 
